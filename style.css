@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    
+    font-family: 'Roboto',  sans-serif;
+    background-color: rgb(102, 101, 101);
+}
+nav{
+    text-align: center;
+    padding: 22px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-weight: 700;
+    font-size: 22px;
+}
+main{
+    max-width: 900px;
+    margin: 0 auto;
+}
+input{
+    margin-top: 3%;
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+}
+.transformed-output{
+    font-size: 1.2rem;
+    margin: 1.5rem 0;
+    padding: 1rem;
+    background-color: beige;
+    position: relative;
+    text-align: left;
+}
+
+.transformed-output label{
+    font-size: 0.75rem;
+    position: absolute;
+    left: 1rem;
+    top: -0.75rem;
+    background-color: black;
+    color: white;
+    padding: 0.25rem;
+}
